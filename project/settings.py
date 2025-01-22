@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # my package
 
+    "django_bootstrap5",
+
     # my apps
 ]
 
@@ -151,3 +153,6 @@ AUTHENTICATION_BACKENDS=['accounts.backend.Login_UserName_Email']
 # EMAIL_HOST_PASSWORD = 'EMAIL_HOST_PASSWORD'
 
 # EMAIL_USE_SSL = False
+
+
+LOGIN_REDIRECT_URL = '/'
