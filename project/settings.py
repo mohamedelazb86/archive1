@@ -42,8 +42,11 @@ INSTALLED_APPS = [
     # my package
 
     "django_bootstrap5",
+    'django_summernote',
 
     # my apps
+    'settings',
+    'contractor',
 ]
 
 MIDDLEWARE = [

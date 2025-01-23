@@ -1,0 +1,37 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Cairo-VariableFont_slnt,wght.ttf);
+  }
+
+  body{
+    font-family: myFirstFont;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+  h3{
+    font-family: myFirstFont;
+    font-size: larger;
+    font-weight: bolder;
+    color: blue;
+  
+  }
+
+  h4{
+    font-family: myFirstFont;
+    font-size: larger;
+    font-weight: bolder;
+    color:red;
+  }
+  th{
+    font-family: myFirstFont;
+    font-size: medium;
+    font-weight: bolder;
+    color:red;
+    background-color: aqua;
+  }
+
+  label{
+    font-family: myFirstFont;
+    color: brown;
+  }
